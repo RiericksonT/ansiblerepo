@@ -12,3 +12,5 @@
 
 #ignore .terraform folder
 .terraform/
+.terraform
+.terrafom.lock.hcl
