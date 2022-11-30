@@ -1,0 +1,12 @@
+# #ignore all .key
+# *.key
+
+# #ignore terrafom state files
+# *.tfstate
+
+# #ignore all pubkeys
+# *.pub
+
+# #ignore all private keys
+# *.pem
+
