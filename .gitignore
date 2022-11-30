@@ -10,3 +10,5 @@
 # #ignore all private keys
 # *.pem
 
+#ignore .terraform folder
+.terraform
