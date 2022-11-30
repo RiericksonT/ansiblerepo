@@ -11,6 +11,6 @@
 # *.pem
 
 #ignore .terraform folder
-.terraform/
+**/.terraform/*
 .terraform
 .terrafom.lock.hcl
