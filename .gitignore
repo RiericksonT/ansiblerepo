@@ -1,5 +1,5 @@
-#ignore all .key
-/keys
+#ignore keys folder
+keys/*
 
 # #ignore terrafom state files
 # *.tfstate
