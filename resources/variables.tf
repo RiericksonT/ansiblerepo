@@ -15,7 +15,7 @@ variable "fingerprint" {
 
 variable "private_key_path" {
   description = "Private Key Path"
-  default     = "C:/Users/rieri/Documents/.oci/key.pem"
+  default     = "C:/Users/rieri/Documents/ansible/keys/-11-30=18-10.pem"
 }
 
 variable "region" {
@@ -35,17 +35,17 @@ variable "vcn_dns_label" {
 
 variable "ssh_public_key_file" {
   description = "SSH Public Key File"
-  default     = "C:/Users/rieri/Documents/ansible/keys.pub"
+  default     = "C:/Users/rieri/Documents/ansible/keys/keys.pub"
 }
 
 variable "ssh_private_key_file" {
   description = "SSH Private Key File"
-  default     = "C:/Users/rieri/Documents/ansible/keys.key"
+  default     = "C:/Users/rieri/Documents/ansible/keys/keys.key"
 }
 
 variable "ssh_private_key_file_mega" {
   description = "SSH Private Key File"
-  default     = "C:/Users/rieri/Documents/ansible/megaHost.key"
+  default     = "C:/Users/rieri/Documents/ansible/keys/megaHost.key"
 
 }
 
