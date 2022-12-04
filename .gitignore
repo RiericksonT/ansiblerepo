@@ -1,5 +1,5 @@
-# #ignore all .key
-# *.key
+#ignore all .key
+/keys
 
 # #ignore terrafom state files
 # *.tfstate
