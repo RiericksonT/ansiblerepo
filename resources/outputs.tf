@@ -5,3 +5,7 @@ output "name-of-first-availability-domain" {
 output "instance_ipaddress" {
   value = oci_core_instance.ubuntu_instance.public_ip
 }
+
+output "ansible log" {
+  value = null_resource.run_docker_install
+}
