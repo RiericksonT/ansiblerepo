@@ -49,3 +49,8 @@ variable "ssh_private_key_file_mega" {
 
 }
 
+variable "vault_password_file" {
+  description = "Vault Password File"
+  default     = "C:/Users/rieri/Documents/ansible/keys/pass.txt"
+}
+

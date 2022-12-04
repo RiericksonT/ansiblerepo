@@ -17,7 +17,7 @@ resource "null_resource" "run_docker_install" {
   }
 
   provisioner "local-exec" {
-    command = "ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -i ${oci_core_instance.ubuntu_instance.public_ip}, docker.yaml -u ubuntu "
+    command = "ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -i ${oci_core_instance.ubuntu_instance.public_ip}, docker.yaml -u ubuntu --private-key ${var.ssh_private_key_file} --vault-password-file ${var.vault_password_file}"
   }
 
 }
